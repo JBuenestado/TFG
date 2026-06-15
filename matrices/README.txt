@@ -1,0 +1,1 @@
+This folder contains the necessary modules to run the neural network simulations reading files as a 32 parameters from a density matrix. The format_and_train notebook is based on previous worked cited "Entanglement detection with classical deep neural networks" and modified as needed.
