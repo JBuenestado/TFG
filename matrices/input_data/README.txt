@@ -1,0 +1,1 @@
+This folder contains the input data for several different experiences. In each folder is detailed the origin of each one. Each of the folders contains pure and mixed states, as well as separable and entangled ones.
