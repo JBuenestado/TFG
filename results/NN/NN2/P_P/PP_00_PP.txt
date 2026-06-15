@@ -1,0 +1,21 @@
+#Tensor product hilbert space dimension: 4; Number of simulations: 10;
+#Pure Separable(Received) DMs were read from: /Users/jojito/Desktop/TFG/Code/Newcode/feature/input_data/T7/pure_states/separable.txt; Pure Entangled (generated) DMs were read from: /Users/jojito/Desktop/TFG/Code/Newcode/feature/input_data/T7/pure_states/negativity_(0.0, 0.1).txt;
+#Architecture of the MLP: [9, 8, 1]; Number of epochs: 10; Fraction of DMs used for training: 0.8;
+#Activation function in the hidden layers: relu; Activation function in the output layer: sigmoid; Loss function: binary_crossentropy;
+#Optimizer: rmsprop; Batch size: 40; Test tolerance: 0.5;
+#tf.Keras.callbacks.EarlyStopping was used with: metric:val_loss; Epochs patience:25; Minimum improvement:0.001;
+#Sucess rate averaged over every simulation and over every sample in the test set: 94.0425%
+#Sample standard deviation for averaged success rate: 0.1393136692413928%
+#Same average success rate for supplementary tests: [0.9417050000000001, 0.95, 0.95, 0.95, 0.9500000000000002, 0.95, 0.95, 0.95, 0.95, 0.95, 0.9417050000000001, 0.95, 0.95, 0.9500000000000002, 0.95, 0.95, 0.9500000000000002, 0.9500000000000002, 0.9500000000000002, 0.95]%
+#Sample STD for averaged success rate in supplementary tests: [0.0006131554849709787, 0.0003535533905932857, 0.0003535533905932857, 0.0003535533905932857, 0.00035355339059326216, 0.0003535533905932857, 0.0003535533905932857, 0.0003535533905932857, 0.0003535533905932857, 0.0003535533905932857, 0.0006131554849709787, 0.0003535533905932778, 0.0003535533905932857, 0.00035355339059326216, 0.0003535533905932778, 0.0003535533905932857, 0.00035355339059326216, 0.00035355339059326216, 0.00035355339059326216, 0.0003535533905932857]%
+#Epoch	Loss		Loss sample STD		Val. Loss		V.L. sample STD
+1	0.680468	0.003723	0.658536	0.007958
+2	0.613015	0.016416	0.550566	0.027562
+3	0.474645	0.038625	0.396356	0.047987
+4	0.333277	0.051793	0.276347	0.054111
+5	0.235019	0.054946	0.200743	0.055972
+6	0.176288	0.057204	0.158894	0.058071
+7	0.143176	0.059213	0.134419	0.059724
+8	0.123471	0.060644	0.117975	0.061081
+9	0.110953	0.061676	0.110364	0.061629
+10	0.102320	0.062440	0.100903	0.062550

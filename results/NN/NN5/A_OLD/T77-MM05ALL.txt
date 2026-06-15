@@ -1,0 +1,21 @@
+#Tensor product hilbert space dimension: 4; Number of simulations: 10;
+#Mixed Separable(received) DMs were read from: /Users/jojito/Desktop/TFG/Code/Newcode/feature/input_data/T7/mixed_states/separable.txt; Mixed Entangled (Generated) DMs were read from: /Users/jojito/Desktop/TFG/Code/Newcode/feature/input_data/T7/mixed_states/negativity_(0.4, 0.5).txt;
+#Architecture of the MLP: [9, 2, 1]; Number of epochs: 10; Fraction of DMs used for training: 0.8;
+#Activation function in the hidden layers: relu; Activation function in the output layer: sigmoid; Loss function: binary_crossentropy;
+#Optimizer: rmsprop; Batch size: 40; Test tolerance: 0.5;
+#tf.Keras.callbacks.EarlyStopping was used with: metric:val_loss; Epochs patience:25; Minimum improvement:0.001;
+#Sucess rate averaged over every simulation and over every sample in the test set: 84.72999999999999%
+#Sample standard deviation for averaged success rate: 0.23713239972639977%
+#Same average success rate for supplementary tests: [0.4999999999999999, 0.6243799999999999, 0.707135, 0.8106449999999998, 0.85, 0.7443899999999999, 0.8225649999999998, 0.8416799999999999, 0.8496, 0.85, 0.5, 0.6243799999999999, 0.707135, 0.8106449999999998, 0.85, 0.7443899999999999, 0.822565, 0.8416799999999999, 0.8496, 0.8499999999999999]%
+#Sample STD for averaged success rate in supplementary tests: [0.0014142135623730968, 0.001062864422210097, 0.00018201535306121064, 0.0009144174094744803, 0.0010606601717798258, 0.0011580053518874666, 0.0010183643938934713, 0.0010437858401032326, 0.00105961879938023, 0.0010606601717798258, 0.0014142135623730937, 0.001062864422210097, 0.00018201535306121064, 0.0009144174094744803, 0.0010606601717798232, 0.0011580053518874642, 0.0010183643938934633, 0.0010437858401032326, 0.0010596187993802326, 0.0010606601717798284]%
+#Epoch	Loss		Loss sample STD		Val. Loss		V.L. sample STD
+1	0.559658	0.032877	0.454851	0.052599
+2	0.387495	0.064210	0.339471	0.074683
+3	0.314099	0.079845	0.295879	0.083392
+4	0.281563	0.085983	0.269887	0.088182
+5	0.259588	0.090121	0.251182	0.091770
+6	0.243818	0.093195	0.237846	0.094397
+7	0.232662	0.095412	0.228496	0.096274
+8	0.224891	0.096978	0.221982	0.097579
+9	0.219508	0.098074	0.217535	0.098501
+10	0.215816	0.098831	0.214475	0.099129
