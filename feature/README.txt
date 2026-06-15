@@ -1,0 +1,1 @@
+This folder contains the necessary modules to run the neural network simulations reading files as a 9 parameters invariance feature. The feature_format_and_train notebook is based on previous worked cited "Entanglement detection with classical deep neural networks" and heavily modified as needed.
