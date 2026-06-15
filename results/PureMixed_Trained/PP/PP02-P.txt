@@ -1,0 +1,21 @@
+#Tensor product hilbert space dimension: 4; Number of simulations: 10;
+#Pure Separable(Generated) DMs were read from: /Users/jojito/Desktop/TFG/Code/Newcode/input_data/T1/pure_states/separable.txt; Pure Entangled (generated) DMs were read from: /Users/jojito/Desktop/TFG/Code/Newcode/input_data/T4/pure_states/negativity_(0.1, 0.2).txt;
+#Architecture of the MLP: [16, 8, 1]; Number of epochs: 10; Fraction of DMs used for training: 0.8;
+#Activation function in the hidden layers: relu; Activation function in the output layer: sigmoid; Loss function: binary_crossentropy;
+#Optimizer: rmsprop; Batch size: 40; Test tolerance: 0.5;
+#tf.Keras.callbacks.EarlyStopping was used with: metric:val_loss; Epochs patience:25; Minimum improvement:0.001;
+#Sucess rate averaged over every simulation and over every sample in the test set: 64.59%
+#Sample standard deviation for averaged success rate: 0.6021071125638693%
+#Same average success rate for supplementary tests: [0.529, 0.56255, 0.60748, 0.650, 0.654, 0.666, 0.733, 0.730, 0.733, 0.771, 0.772, 0.773, 0.785, 0.787, 0.787, 0.744, 0.746, 0.749, 0.770, 0.772, 0.773, 0.781, 0.781, 0.782, 0.786, 0.786, 0.787, 0.787, 0.790, 0.788]%
+#Sample STD for averaged success rate in supplementary tests: [0.002871746376118546, 0.0028484864182579494, 0.0027861626801032277, 0.0026828938816136592, 0.002690308528775092, 0.002655160625790838, 0.002532815725630271, 0.0025171495783921924, 0.00250665453318761, 0.0024737600520260616, 0.0024667661411248527, 0.0024653627904935196, 0.0024725805861488133, 0.0024768945718378873, 0.002479104787771182, 0.002391942013302163, 0.002388246934468881, 0.0023867501325023524, 0.002452407684042357, 0.00245238481661219, 0.002453281841737715, 0.0024690927473466854, 0.002469092747346684, 0.002466289180124669, 0.0024750389895918812, 0.002475642037684366, 0.00247733469276963, 0.0024760179661605848, 0.002483495514139294, 0.002479326004935616]%
+#Epoch	Loss		Loss sample STD		Val. Loss		V.L. sample STD
+1	0.690345	0.000409	0.686157	0.000673
+2	0.682691	0.000632	0.678466	0.000887
+3	0.674599	0.000795	0.670393	0.000787
+4	0.666555	0.001073	0.662536	0.001197
+5	0.659127	0.001522	0.655719	0.001604
+6	0.652529	0.002031	0.649944	0.002164
+7	0.646405	0.002565	0.644497	0.002708
+8	0.640272	0.003221	0.638855	0.003496
+9	0.633843	0.003919	0.633817	0.004228
+10	0.627038	0.004615	0.627426	0.004868
