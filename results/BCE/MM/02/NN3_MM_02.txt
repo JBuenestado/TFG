@@ -1,0 +1,38 @@
+#Tensor product hilbert space dimension: 4; Number of simulations: 8;
+#Mixed Separable(received) DMs were read from: /Users/jojito/Desktop/TFG/Code/Newcode/feature/input_data/T7/mixed_states/separable.txt; Mixed Entangled (Generated) DMs were read from: /Users/jojito/Desktop/TFG/Code/Newcode/feature/input_data/T7/mixed_states/negativity_(0.2, 0.3).txt;
+#Architecture of the MLP: [9, 6, 1]; Number of epochs: 30; Fraction of DMs used for training: 0.8;
+#Activation function in the hidden layers: relu; Activation function in the output layer: sigmoid; Loss function: binary_crossentropy;
+#Optimizer: rmsprop; Batch size: 40; Test tolerance: 0.5;
+#Sucess rate averaged over every simulation and over every sample in the test set: 100.0%
+#Sample standard deviation for averaged success rate: 0.0%
+#Epoch	Loss		Loss sample STD		Val. Loss		V.L. sample STD
+1	0.449745	0.030690	0.230034	0.041103
+2	0.132274	0.038143	0.081549	0.034731
+3	0.066736	0.029626	0.054889	0.024915
+4	0.046145	0.021000	0.038439	0.017530
+5	0.032208	0.014699	0.026751	0.012212
+6	0.022338	0.010203	0.018472	0.008436
+7	0.015368	0.007021	0.012678	0.005791
+8	0.010538	0.004815	0.008664	0.003956
+9	0.007184	0.003282	0.005899	0.002694
+10	0.004888	0.002233	0.004010	0.001831
+11	0.003321	0.001516	0.002723	0.001243
+12	0.002253	0.001028	0.001847	0.000843
+13	0.001529	0.000697	0.001253	0.000571
+14	0.001039	0.000473	0.000852	0.000388
+15	0.000707	0.000321	0.000581	0.000264
+16	0.000484	0.000219	0.000398	0.000181
+17	0.000334	0.000151	0.000277	0.000125
+18	0.000234	0.000105	0.000196	0.000088
+19	0.000168	0.000075	0.000143	0.000064
+20	0.000125	0.000056	0.000108	0.000049
+21	0.000097	0.000043	0.000085	0.000038
+22	0.000078	0.000034	0.000069	0.000031
+23	0.000064	0.000028	0.000058	0.000026
+24	0.000054	0.000024	0.000050	0.000022
+25	0.000047	0.000020	0.000043	0.000019
+26	0.000041	0.000018	0.000039	0.000017
+27	0.000037	0.000016	0.000034	0.000015
+28	0.000033	0.000014	0.000031	0.000014
+29	0.000030	0.000013	0.000029	0.000012
+30	0.000028	0.000012	0.000026	0.000011
