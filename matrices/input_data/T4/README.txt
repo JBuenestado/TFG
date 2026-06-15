@@ -1,0 +1,1 @@
+This data was generated using the generate_quantum_states notebook. It contains 10.000 density matrices, labeled as the type (mixed/pure) and the entanglement (separable/entangled).
