@@ -1,0 +1,19 @@
+#Tensor product hilbert space dimension: 4; Number of simulations: 10;
+#Mixed Separable(received) DMs were read from: /Users/jojito/Desktop/TFG/Code/Newcode/input_data/T1/mixed_states/separable.txt; Mixed Entangled (generated) - Int[0.0, 0.1] DMs were read from: /Users/jojito/Desktop/TFG/Code/Newcode/input_data/T6/mixed_states/negativity_(0.0, 0.1).txt;
+#Architecture of the MLP: [16, 8, 1]; Number of epochs: 10; Fraction of DMs used for training: 0.8;
+#Activation function in the hidden layers: relu; Activation function in the output layer: sigmoid; Loss function: binary_crossentropy;
+#Optimizer: rmsprop; Batch size: 40; Test tolerance: 0.5;
+#tf.Keras.callbacks.EarlyStopping was used with: metric:val_loss; Epochs patience:25; Minimum improvement:0.001;
+#Sucess rate averaged over every simulation and over every sample in the test set: 99.72750000000002%
+#Sample standard deviation for averaged success rate: 0.06020951700104762%
+#Epoch	Loss	Loss sample STD	Val. Loss	V.L. sample STD
+1	0.600787	0.010031	0.481950	0.017893
+2	0.346645	0.019156	0.227955	0.019063
+3	0.170079	0.017164	0.119498	0.015503
+4	0.095128	0.013558	0.069169	0.011499
+5	0.056951	0.009817	0.043642	0.007728
+6	0.036601	0.006816	0.029602	0.005408
+7	0.025989	0.004728	0.022361	0.003596
+8	0.019696	0.003262	0.017525	0.002463
+9	0.015715	0.002278	0.014653	0.001659
+10	0.013046	0.001629	0.012660	0.001084
